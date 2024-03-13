@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/mainActivity">
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.avaliacaopdm.MainActivity"
+        android:label="activity_a"
+        tools:layout="@layout/activity_a" />
+    <activity
+        android:id="@+id/b"
+        android:name="com.example.avaliacaopdm.ActivityB"
+        android:label="activity_b"
+        tools:layout="@layout/activity_b" />
+    <activity
+        android:id="@+id/c"
+        android:name="com.example.avaliacaopdm.ActivityC"
+        android:label="activity_c"
+        tools:layout="@layout/activity_c" />
+</navigation>
